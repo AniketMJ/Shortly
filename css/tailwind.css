@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+
+@layer components {
+  .btn {
+    @apply inline-block py-2 px-8 outline-none hover:opacity-70 focus:ring-4;
+  }
+}
+
+@tailwind utilities;
+
+@layer utilities {
+  a,
+  button {
+    @apply outline-none focus:ring-4;
+  }
+}
